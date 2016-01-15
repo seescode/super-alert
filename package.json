@@ -1,0 +1,19 @@
+{
+  "name": "@abot/super-alert",
+  "version": "1.0.0",
+  "description": "Shows an alert",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seescode/super-alert.git"
+  },
+  "author": "Yong",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/seescode/super-alert/issues"
+  },
+  "homepage": "https://github.com/seescode/super-alert#readme"
+}
