@@ -2,10 +2,6 @@
   "name": "@abot/super-alert",
   "version": "1.0.1",
   "description": "Shows an alert",
-  "main": " ",
-  "scripts": {
-    "test": " "
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seescode/super-alert.git"
