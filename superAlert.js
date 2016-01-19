@@ -8,7 +8,7 @@
             //scope: {
             //},
             replace: false,
-            template: '<button ng-click="click()">Alert!</button>',
+            template: 'superTemplate.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
                     alert('abc');
