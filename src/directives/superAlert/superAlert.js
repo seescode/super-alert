@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('atom.superalert', []);
+    
 
     function superAlert() {
         return {
@@ -8,7 +8,7 @@
             //scope: {
             //},
             replace: false,
-            template: 'superTemplate.html',
+            template: '/directives/superAlert/superTemplate.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
                     alert('abc');
