@@ -2,7 +2,7 @@
     'use strict';
     
 
-    function superAlert() {
+    function superAlert($scope) {
         return {
             restrict: 'E',
             //scope: {
