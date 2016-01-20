@@ -11,8 +11,6 @@
 //     grunt.loadNpmTasks('grunt-open');
 // 
 //     // Default task(s).
-//     grunt.registerTask('build-ui', ['ngAnnotate', 'concat']);
-//     grunt.registerTask('default', ['build-ui', 'connect', 'open', 'watch']);
 // };
 
 
@@ -21,4 +19,7 @@ module.exports = function (grunt) {
 
 	//Load configs
 	require('load-grunt-config')(grunt);
+    
+    grunt.registerTask('build-ui', ['ngAnnotate', 'concat']);
+    grunt.registerTask('default', ['build-ui', 'connect', 'open', 'watch']); 
 };

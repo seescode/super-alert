@@ -6,7 +6,7 @@ module.exports = {
     },
     code: {
         //list all the files to watch for changes.
-        files: ['app/index.html', 'app/js/*.*', 'app/js/**/*.*'],
+        files: ['app/index.html', 'app/src/*.*', 'app/src/**/*.*'],
         tasks: ['build-ui']
     }
 };

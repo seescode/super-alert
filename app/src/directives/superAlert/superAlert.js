@@ -2,13 +2,13 @@
     'use strict';
     
 
-    function superAlert($scope) {
+    function superAlert() {
         return {
             restrict: 'E',
             //scope: {
             //},
             replace: false,
-            template: '/directives/superAlert/superTemplate.html',
+            templateUrl: '/directives/superAlert/superTemplate.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
                     alert('abc');
