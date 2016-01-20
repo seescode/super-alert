@@ -20,6 +20,6 @@ module.exports = function (grunt) {
 	//Load configs
 	require('load-grunt-config')(grunt);
     
-    grunt.registerTask('build-ui', ['ngAnnotate', 'concat']);
+    grunt.registerTask('build-ui', ['ngAnnotate', 'ngtemplates', 'concat']);
     grunt.registerTask('default', ['build-ui', 'connect', 'open', 'watch']); 
 };
