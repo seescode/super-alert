@@ -3,7 +3,6 @@
 
 	angular.module('atom.superalert', []);
 
-	angular.module('atom', ['atom.superalert']);    
 })();
 angular.module('atom.superalert').run(['$templateCache', function($templateCache) {
   'use strict';
