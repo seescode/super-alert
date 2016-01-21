@@ -5,9 +5,9 @@ module.exports = {
     app: {
         files: [{
             expand: true,
-            src: ['app/src/*.js', 'app/src/**/*.js'],
+            src: ['src/*.js', 'src/**/*.js'],
             rename: function (dest, src) {
-                return src.replace("app/src", "app/dist/unconcated");
+                return src.replace("src", "dist");
             }
         }]
     }

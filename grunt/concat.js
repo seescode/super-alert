@@ -5,10 +5,11 @@ module.exports = {
             separator: '\n',
         },
         src: [
-            'app/dist/unconcated/module.js',
-            'app/dist/unconcated/*.js',
-            'app/dist/unconcated/**/*.js'
+            'node_modules/angular/angular.js',
+            'dist/module.js',
+            'dist/*.js',
+            'dist/**/*.js'
         ],
-        dest: 'app/dist/concated/superAlert.js'
+        dest: 'sample/superAlert.js'
     }
 };

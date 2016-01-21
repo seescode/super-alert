@@ -7,7 +7,7 @@ module.exports = {
 
             //this matches with the folder in which you want to server
             //your html/js code.
-            base: 'app',
+            base: 'sample',
 
             //This tells 
             livereload: 11335
