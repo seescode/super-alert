@@ -21,7 +21,8 @@ module.exports = function (grunt) {
 	require('load-grunt-config')(grunt, 
     {
         data: {
-            liveReloadPort: 11335
+            liveReloadPort: 11335,
+            serverPort: 9001
         }
     });
     

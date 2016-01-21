@@ -1,5 +1,5 @@
 module.exports = {
     dev: {
-        path: 'http://localhost:9001/'
+        path: 'http://localhost:<%= serverPort %>/'
     }
 };

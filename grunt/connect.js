@@ -3,7 +3,7 @@ module.exports = {
         options: {
             hostname: 'localhost',            
             //the port we want our localhost to run on
-            port: 9001,
+            port: '<%= serverPort %>',
 
             //this matches with the folder in which you want to server
             //your html/js code.
