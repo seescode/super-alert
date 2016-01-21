@@ -26458,7 +26458,7 @@ var minlengthDirective = function() {
 angular.module('atom.superalert').run(['$templateCache', function($templateCache) {
   'use strict';
 
-  $templateCache.put('/directives/superAlert/superTemplate.html',
+  $templateCache.put('/directives/superAlert/superAlert.html',
     "<button ng-click=\"click()\">Alert!</button>"
   );
 
@@ -26474,10 +26474,10 @@ angular.module('atom.superalert').run(['$templateCache', function($templateCache
             //scope: {
             //},
             replace: false,
-            templateUrl: '/directives/superAlert/superTemplate.html',
+            templateUrl: '/directives/superAlert/superAlert.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
-                    alert('abc');
+                    alert('abcd');
                 };
             }
         };
