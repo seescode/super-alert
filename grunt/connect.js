@@ -9,8 +9,7 @@ module.exports = {
             //your html/js code.
             base: 'sample',
 
-            //This tells 
-            livereload: 11335
+            livereload: '<%= liveReloadPort %>'
         }
     }
 };

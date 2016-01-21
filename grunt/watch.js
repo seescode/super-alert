@@ -2,7 +2,7 @@ module.exports = {
     options: {
         //grunt watch already has live reload built in.  
         //Here we are enabling it.
-        livereload: 11335
+        livereload: '<%= liveReloadPort %>'
     },
     code: {
         //list all the files to watch for changes.
