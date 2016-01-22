@@ -11,10 +11,10 @@
             templateUrl: '/directives/superAlert/superAlert.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
-                    alert('super alert 4');
+                    alert('major version 3!');
                 };
             }
         };
     };
-    angular.module('atom.superalert').directive('superAlert', superAlert);
+    angular.module('atom.superalert').directive('superAlert3', superAlert);
 })();
