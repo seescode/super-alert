@@ -26477,7 +26477,7 @@ angular.module('atom.superalert').run(['$templateCache', function($templateCache
             templateUrl: '/directives/superAlert/superAlert.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
-                    alert('major version 3!');
+                    alert('Whatever');
                 };
             }
         };
