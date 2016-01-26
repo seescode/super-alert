@@ -1,6 +1,6 @@
 {
   "name": "@abot/super-alert",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "Shows an alert",
   "repository": {
     "type": "git",
