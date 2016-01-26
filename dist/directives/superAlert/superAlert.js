@@ -11,7 +11,7 @@
             templateUrl: '/directives/superAlert/superAlert.html',
             link: function (scope, element, attrs) {
                 scope.click = function() {
-                    alert('Super alert 4');
+                    alert('Super alert');
                 };
             }
         };
