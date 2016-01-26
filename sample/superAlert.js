@@ -26482,6 +26482,6 @@ angular.module('atom.superalert').run(['$templateCache', function($templateCache
             }
         };
     };
-    angular.module('atom.superalert').directive('superAlert4', superAlert);
+    angular.module('atom.superalert').directive('superAlert5', superAlert);
 })();
 //# sourceMappingURL=superAlert.js.map
