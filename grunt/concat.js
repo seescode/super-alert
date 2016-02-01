@@ -5,7 +5,7 @@ module.exports = {
             separator: '\n',
         },
         src: [
-            'node_modules/angular/angular.js',
+            'bower_components/angular/angular.js',
             'dist/module.js',
             'dist/*.js',
             'dist/**/*.js'
